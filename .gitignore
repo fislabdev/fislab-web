@@ -1,2 +1,17 @@
-.idea/
+# Environment files
+.env/
+*.env
+
+# Ent generated files (ignore semua generated code)
+internal/database/*.go
+internal/database/*/
+!internal/database/schema/
+
+# Go files
+*.log
+*.out
+vendor/
+
+# IDE
+.vscode/
 .idea/
